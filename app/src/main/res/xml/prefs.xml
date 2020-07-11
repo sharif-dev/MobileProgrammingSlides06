@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:summary="Preference Category Screen 1"
+        android:title="Your Title Goes here" >
+        <EditTextPreference
+            android:key="Edit Text"
+            android:summary="This is an Edit Text"
+            android:title="Edit Text" />
+        <EditTextPreference
+            android:key="Edit Text2"
+            android:summary="Another Edit Text"
+            android:title="Edit Text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Preference Category Screen 2"
+        android:title="Your Title Goes here" >
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:summary="A check box "
+            android:title="Keep me logged in"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
